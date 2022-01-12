@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-group-item.complited span {
+  text-decoration: line-through;
+}
+
+.list-group-item span {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.list-group-item label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.list-group-item i {
+  z-index: 2;
+}
